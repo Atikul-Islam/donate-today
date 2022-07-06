@@ -20,14 +20,18 @@ body{
 .description{
     width: 60%;
     padding-left: 20%;
+    padding-bottom: 20PX;
+    color: gray;
+    text-align: center;
 }
 .link-button{
     text-decoration: none;
-    background-color:rgb(214, 75, 98);
+    background-color: #FD5959;
     color: white;
     border-radius: 5px;
-    margin: 40px 80px;
-    padding: 20px 30px;
+    margin: 80px;
+    padding: 20px;
+    font-size: 20px;
 }
 #input-amount{
     width: 40%;
@@ -35,37 +39,52 @@ body{
     border-left: 0;
     border-right: 0;
     text-align: center;
-}
-footer{
-    width: 100%;
-    position: absolute;
-    color: white;
-    text-align: center;
-    background-color: black;
+    padding: 10PX;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin: 10px;
     text-align: justify;
     font-size: 15px;
-    padding-right: 15px;
 }
 .container > div{
     background-color: rgb(226, 222, 222);
+    margin: 20px;
+    padding: 30px;
+}
+#plan-container{
     margin: 40px;
-    padding: 20px;
+    padding: 80px;
+
+}
+#food-container{
+    background: color #EDF5F7; ;
+}
+#family-container{
+    background-color: #FEEEEE;
+}
+#child-container{
+    background-color: #FFF4D6;
 }
 .donate{
     text-align: center;
+    padding: 100px;
+    margin: 20px;
 }
 .donate-plan{
     text-align: center;
 }
+#amnt{
+    border: solid rgb(243, 83, 110);
+    background-color: pink;
+}
+.section-title{
+    font-size: 70px;
+}
 form{
-    background-color: rgb(247, 191, 191);
+    background-color: #FFF4D6;
     width: 40%;
     padding: 2%;
     text-align: center;
@@ -79,7 +98,7 @@ form{
 #subscribe{
     color: white;
     border-radius: 5%;
-    background-color: rgb(214, 75, 98);
+    background-color: #FD5959;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
@@ -90,7 +109,15 @@ form{
     cursor: pointer;
 }
 #mail{
-    padding: 8px 16px 8px 16px;
+    padding: 16px 16px 16px 16px;
     border: 0;
     background-color: gainsboro;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
 }
